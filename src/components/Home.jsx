@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <Box>
         <MyCarousel />
-        <Container maxW={'container.xl'} minH={'100vh'} p={'16'}>
+        <Container maxW={'container.xl'} minH={'100vh'} p={["2", "16"]} mt={"4"} >
           <Heading
             borderBottom={'2px solid'}
             width={'fit-content'}
@@ -38,6 +38,7 @@ const Home = () => {
             p={'4'}
             alignItems={'center'}
             direction={['column', 'row']}
+            marginTop={"4"}
           >
             <Image
               src={img5}
